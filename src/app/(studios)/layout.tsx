@@ -6,7 +6,7 @@ const HomeLayout = ({ children }: { children: ReactNode }) => {
   return (
     <>
       <CommonHeader />
-      <div className="lg:mt-28">{children}</div>
+      <div className="lg:mt-48">{children}</div>
       <CommonFooter />
     </>
   );

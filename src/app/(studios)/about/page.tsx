@@ -7,9 +7,9 @@ const page = () => {
       <div className="flex flex-col justify-center items-center">
         <div className="flex flex-col justify-center items-center">
           <span className="font-medium text-lg order-last lg:order-first">The Full Storyy</span>
-          <h1 className="font-semibold lg:font-bold text-3xl lg:text-5xl my-2 ">About</h1>
+          <h1 className="font-semibold lg:font-bold text-3xl lg:text-5xl/relaxed my-2 ">About</h1>
         </div>
-        <div className="mx-8 lg:mx-0 lg:w-5/12 font-sans text-sm lg:text-lg text-center leading-relaxed mt-6 space-y-4">
+        <div className="mx-8 lg:mx-0 lg:w-5/12 font-sans text-sm lg:text-lg/relaxed text-center mt-6 space-y-4">
           <p>
             <span className="font-semibold">Se/f</span> <span className="font-medium">Studios </span>
             is a self portrait photo studio that offers new experience inspired by the concept of classic and minimalism lifestyle.

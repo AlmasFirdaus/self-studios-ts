@@ -1,4 +1,5 @@
 import { Instagram } from 'lucide-react';
+import Link from 'next/link';
 import React from 'react';
 
 const CommonFooter = () => {
@@ -10,9 +11,9 @@ const CommonFooter = () => {
         </p>
         <p className="inline-flex gap-2 justify-center items-center">
           Follow us on Instagram
-          <button>
+          <Link href={'https://www.instagram.com/'} target="_blank">
             <Instagram />
-          </button>
+          </Link>
         </p>
       </div>
     </footer>
