@@ -1,7 +1,7 @@
 export const contacts = [
   {
     title: 'Se/f Studios',
-    address: 'Jalan Soekarno Hatta 44B, Malang, Jawa Timur',
+    address: 'Jl. Laksda Adi Sucipto Perumahan Pondok Indah Estate Blok A, Malang',
     email: 'hello@the-selfstudios.com',
     phone: '0813-3666-3739',
   },
