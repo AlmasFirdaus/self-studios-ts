@@ -19,7 +19,7 @@ const Page = () => {
         </Button>
         <h3 className="text-2xl">Background Selection</h3>
       </div>
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center mt-8 mb-4">
         <SlideImage />
       </div>
     </section>
