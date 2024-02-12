@@ -10,7 +10,6 @@ import { z } from 'zod';
 import { Button } from '@/components/ui/button';
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@/components/ui/form';
 import { Input } from '@/components/ui/input';
-import { AspectRatio } from '@/components/ui/aspect-ratio';
 
 type messageFormType = z.infer<typeof messageFormSchema>;
 
@@ -118,7 +117,7 @@ const Page = () => {
                       </FormItem>
                     )}
                   />
-                  <Button variant={'outline'} type="submit" className="text-white">
+                  <Button variant={'outline'} type="submit" className="text-white bg-[#686767]">
                     Submit
                   </Button>
                 </form>

@@ -1,4 +1,6 @@
 import ShowPricelist from '@/components/pricelist/show-pricelist';
+import SlideImage from '@/components/pricelist/slider-image';
+import { Button } from '@/components/ui/button';
 import { pricelists } from '@/lib/data/pricelists';
 import React from 'react';
 
@@ -10,6 +12,15 @@ const Page = () => {
       </div>
       <div>
         <ShowPricelist pricelists={pricelists} />
+      </div>
+      <div className="flex flex-col justify-center items-center gap-14">
+        <Button variant={'outline'} type="button" className="text-white bg-[#2C2C2B] text-lg py-7 px-12">
+          Book Now
+        </Button>
+        <h3 className="text-2xl">Background Selection</h3>
+      </div>
+      <div className="flex justify-center items-center">
+        <SlideImage />
       </div>
     </section>
   );

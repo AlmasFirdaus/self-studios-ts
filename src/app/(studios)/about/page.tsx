@@ -20,7 +20,7 @@ const page = () => {
 
       <div className="grid grid-cols-1 lg:grid-cols-2 mt-12">
         <div className="w-full h-full aspect-square lg:aspect-video relative flex-1">
-          <Image src={`/images/image.jpg`} alt="images" sizes="100%,100%" className="aspect-square lg:aspect-video object-cover object-center" fill priority />
+          <Image src={`/images/grey.jpg`} alt="images" sizes="100%,100%" className="aspect-square lg:aspect-video object-cover object-center" fill priority />
         </div>
         <div className="w-full aspect-square lg:aspect-video flex flex-col flex-1 justify-center items-center lg:border-y-2">
           <div className="mx-8 lg:mx-0 lg:w-1/2 text-center">
