@@ -18,7 +18,7 @@ const PricelistRules = ({ rules, price }: Props) => {
           ))}
         </div>
         <div className="w-32 h-[1px] bg-black" />
-        <p className="flex w-8 justify-end items-end">{price}</p>
+        <p className="flex w-8 justify-end items-end">{price}K</p>
       </div>
     </div>
   );

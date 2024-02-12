@@ -16,7 +16,7 @@ const PricelistOption = ({ options }: Props) => {
               <div key={index} className="flex items-center lg:gap-x-10 gap-2">
                 <p className="w-full flex lg:flex-1">- {select.title}</p>
                 <div className="w-32 h-[1px] bg-black" />
-                <p className="flex w-8 justify-end items-end">{select.price_selected}</p>
+                <p className="flex w-8 justify-end items-end">{select.price_selected}K</p>
               </div>
             ))}
           </div>
