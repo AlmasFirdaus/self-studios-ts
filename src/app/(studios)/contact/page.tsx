@@ -36,7 +36,7 @@ const Page = () => {
       <div className="flex flex-col justify-center items-center">
         <h1 className="font-semibold lg:font-bold text-3xl lg:text-5xl/relaxed my-2 ">Contact Us</h1>
         <div className="mx-8 lg:mx-0 lg:w-5/12 font-sans text-sm lg:text-lg/relaxed text-center mt-6 space-y-4">
-          <p>Should you have any inquiries about our service, don't hesitate to contact us. We're very happy to assist and welcome you to our humble studio.</p>
+          <p>Should you have any inquiries about our service, don&apos;t hesitate to contact us. We&apos;re very happy to assist and welcome you to our humble studio.</p>
         </div>
       </div>
 
