@@ -16,11 +16,11 @@ const Page = () => {
       </div>
       <div className="flex flex-col justify-center items-center gap-14">
         <Link href={'/book-online'}>
-          <Button variant={'outline'} type="button" className="text-white bg-[#2C2C2B] text-lg py-7 px-12">
+          <Button variant={'outline'} type="button" className="text-white bg-[#2C2C2B] lg:text-lg lg:py-7 lg:px-12">
             Book Now
           </Button>
         </Link>
-        <h3 className="text-2xl">Background Selection</h3>
+        <h3 className="text-xl lg:text-2xl">Background Selection</h3>
       </div>
       <div className="flex justify-center items-center my-3 lg:mt-8 lg:mb-4">
         <SlideImage />

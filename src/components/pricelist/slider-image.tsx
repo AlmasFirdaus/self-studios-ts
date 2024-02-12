@@ -27,8 +27,8 @@ export default function SlideImage() {
               <Card>
                 <CardContent className="flex aspect-[9/14] lg:aspect-[3/4] items-center justify-center relative">
                   <Image src={photo.src} alt={photo.title} sizes="100%,100$" className="object-cover object-center" fill priority />
-                  <div className="absolute top-0 left-0 w-full h-full hover:bg-black/30 rounded-md" />
-                  <p className="absolute text-4xl lg:text-6xl text-white shadow-inner">{photo.title}</p>
+                  <div className="absolute top-0 left-0 w-full h-full transition-colors ease-in-out duration-200 hover:bg-black/30 rounded-md" />
+                  <p className="absolute text-lg lg:text-6xl text-white shadow-inner capitalize">{photo.title}</p>
                 </CardContent>
               </Card>
             </div>
