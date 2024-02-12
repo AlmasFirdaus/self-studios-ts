@@ -15,17 +15,17 @@ export default function SlideImage() {
       }}
       plugins={[
         Autoplay({
-          delay: 2000,
+          delay: 3000,
         }),
       ]}
       className="w-full"
     >
       <CarouselContent>
         {backgroundPhotos?.map((photo, index) => (
-          <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
+          <CarouselItem key={index} className="basis-1/3">
             <div className="">
               <Card>
-                <CardContent className="flex aspect-[3/4] items-center justify-center relative">
+                <CardContent className="flex aspect-[9/14] lg:aspect-[3/4] items-center justify-center relative">
                   <Image src={photo.src} alt={photo.title} sizes="100%,100$" className="object-cover object-center" fill priority />
                   <div className="absolute top-0 left-0 w-full h-full hover:bg-black/30 rounded-md" />
                   <p className="absolute text-4xl lg:text-6xl text-white shadow-inner">{photo.title}</p>
