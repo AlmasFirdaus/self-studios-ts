@@ -23,7 +23,7 @@ export default function SlideImage() {
       <CarouselContent>
         {backgroundPhotos?.map((photo, index) => (
           <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
-            <div className="p-1">
+            <div className="">
               <Card>
                 <CardContent className="flex aspect-[3/4] items-center justify-center relative">
                   <Image src={photo.src} alt={photo.title} sizes="100%,100$" className="object-cover object-center" fill priority />
