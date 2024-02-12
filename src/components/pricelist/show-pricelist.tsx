@@ -16,7 +16,7 @@ const ShowPricelist = ({ pricelists }: Props) => {
             <h2 className="font-bold leading-relaxed tracking-wide">{pricelist?.heading}</h2>
           </div>
 
-          <div className="w-full">{pricelist?.rules && <PricelistRules rules={pricelist.rules} price={pricelist.price} k />}</div>
+          <div className="w-full">{pricelist?.rules && <PricelistRules rules={pricelist.rules} price={pricelist.price} />}</div>
 
           <div className="w-full">{pricelist?.options && <PricelistOption options={pricelist.options} />}</div>
         </div>

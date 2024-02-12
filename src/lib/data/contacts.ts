@@ -9,21 +9,21 @@ export const contacts = [
 
 export const studios = [
   {
-    image: '/image/grey.jpg',
+    image: '/images/grey.jpg',
     class: 'basic',
     place: 'Malang | Blimbing',
     address: 'Jl. Laksda Adi Sucipto Perumahan Pondok Indah Estate, Pandanwangi, Blok A',
     link: 'malang-blimbing',
   },
   {
-    image: '/image/girl.jpg',
+    image: '/images/girl.jpg',
     class: 'retro',
     place: 'Surabaya | Pakis',
     address: 'Jl. Pakis Tirtosari VI A No.27, RT.009/RW.05, Pakis',
     link: 'surabaya-pakis',
   },
   {
-    image: '/image/white.jpg',
+    image: '/images/white.jpg',
     class: 'Vintage',
     place: 'Jember | Balung',
     address: 'Jl. Puger, Krajan Lor No 29,RT.001/RW.001, Balung Kulon',
