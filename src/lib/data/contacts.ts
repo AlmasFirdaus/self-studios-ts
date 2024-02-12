@@ -16,7 +16,7 @@ export const studios = [
     link: 'malang-blimbing',
   },
   {
-    image: '/images/girl.jpg',
+    image: '/images/girls.jpg',
     class: 'retro',
     place: 'Surabaya | Pakis',
     address: 'Jl. Pakis Tirtosari VI A No.27, RT.009/RW.05, Pakis',
