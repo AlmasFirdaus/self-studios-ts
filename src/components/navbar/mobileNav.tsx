@@ -7,7 +7,7 @@ import { links } from '@/lib/data/links';
 
 const MobileNav = () => {
   return (
-    <div className="w-full flex flex-col lg:hidden">
+    <div className='w-full flex flex-col md:hidden'>
       <Sheet>
         <SheetTrigger asChild>
           <button>
@@ -15,23 +15,23 @@ const MobileNav = () => {
           </button>
         </SheetTrigger>
         <SheetContent side={'left'}>
-          <SheetHeader className="mt-10">
-            <Link href={'/'} className="font-bold flex justify-center items-center gap-1 text-4xl">
-              Se/f <span className="font-medium">Studios</span>
+          <SheetHeader className='mt-10'>
+            <Link href={'/'} className='font-bold flex justify-center items-center gap-1 text-4xl'>
+              Se/f <span className='font-medium'>Studios</span>
             </Link>
           </SheetHeader>
-          <div className="flex flex-col mt-8 gap-8 items-center">
+          <div className='flex flex-col mt-8 gap-8 items-center'>
             {links.map((link, index) => (
-              <Link key={index} href={link.href} className="font-medium text-lg hover:text-gray-400 transition-colors ease-in-out duration-200">
+              <Link key={index} href={link.href} className='font-medium text-lg hover:text-gray-400 transition-colors ease-in-out duration-200'>
                 {link.title}
               </Link>
             ))}
           </div>
         </SheetContent>
       </Sheet>
-      <div className="flex justify-center items-center my-10">
-        <Link href={'/'} className="font-bold flex justify-center items-center gap-1 text-3xl">
-          Se/f <span className="font-medium">Studios</span>
+      <div className='flex justify-center items-center my-10'>
+        <Link href={'/'} className='font-bold flex justify-center items-center gap-1 text-3xl'>
+          Se/f <span className='font-medium'>Studios</span>
         </Link>
       </div>
     </div>
