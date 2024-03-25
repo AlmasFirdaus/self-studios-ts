@@ -9,16 +9,16 @@ type Props = {
 
 const ShowPricelist = ({ pricelists }: Props) => {
   return (
-    <div className="w-full container flex flex-col justify-center items-center my-10">
+    <div className='w-full container flex flex-col justify-center items-center my-10'>
       {pricelists?.map((pricelist, index) => (
-        <div key={index} className="w-full lg:mx-0 lg:w-1/2 flex flex-col justify-center items-start">
-          <div className="w-full">
-            <h2 className="font-bold leading-relaxed tracking-wide">{pricelist?.heading}</h2>
+        <div key={index} className='w-full md:mx-0 md:w-1/2 flex flex-col justify-center items-start'>
+          <div className='w-full'>
+            <h2 className='font-bold leading-relaxed tracking-wide'>{pricelist?.heading}</h2>
           </div>
 
-          <div className="w-full">{pricelist?.rules && <PricelistRules rules={pricelist.rules} price={pricelist.price} />}</div>
+          <div className='w-full'>{pricelist?.rules && <PricelistRules rules={pricelist.rules} price={pricelist.price} />}</div>
 
-          <div className="w-full">{pricelist?.options && <PricelistOption options={pricelist.options} />}</div>
+          <div className='w-full'>{pricelist?.options && <PricelistOption options={pricelist.options} />}</div>
         </div>
       ))}
     </div>
