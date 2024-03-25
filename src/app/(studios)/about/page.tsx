@@ -19,11 +19,11 @@ const page = () => {
       </div>
 
       <div className='grid grid-cols-1 md:grid-cols-2 mt-12'>
-        <div className='w-full h-full aspect-square md:aspect-video relative flex-1'>
-          <Image src={`/images/grey.jpg`} alt='images' sizes='100%,100%' className='aspect-square md:aspect-video object-cover object-center' fill priority />
+        <div className='w-full h-full aspect-square lg:aspect-video relative flex-1'>
+          <Image src={`/images/grey.jpg`} alt='images' sizes='100%,100%' className='aspect-square lg:aspect-video object-cover object-center' fill priority />
         </div>
-        <div className='w-full aspect-square md:aspect-video flex flex-col flex-1 justify-center items-center md:border-y-2'>
-          <div className='mx-8 md:mx-0 md:w-1/2 text-center'>
+        <div className='w-full aspect-square lg:aspect-video flex flex-col flex-1 justify-center items-center md:border-y-2'>
+          <div className='mx-8 md:mx-0 md:w-2/3 text-center'>
             <p className='font-semibold text-3xl md:text-4xl mb-11'>Our Belief</p>
             <div className='text-sm space-y-5 md:text-base'>
               <p>We believe that a piece of photo will tell a lot of story and keep the memory remains.</p>
@@ -31,8 +31,8 @@ const page = () => {
             </div>
           </div>
         </div>
-        <div className='w-full py-10 md:py-0 aspect-square md:aspect-video flex flex-col flex-1 justify-center items-center md:border-y-2 order-1 md:order-none'>
-          <div className='mx-8 md:mx-0 md:w-1/2 text-center'>
+        <div className='w-full py-10 md:py-0 aspect-square lg:aspect-video flex flex-col flex-1 justify-center items-center md:border-y-2 order-1 md:order-none'>
+          <div className='mx-8 md:mx-0 md:w-2/3 text-center'>
             <p className='font-semibold text-3xl md:text-4xl mb-11'>Our Service</p>
             <div className='text-sm space-y-5 md:text-base'>
               <p>Everyone deserves a good photo to make the memory everlasting.</p>
@@ -43,7 +43,7 @@ const page = () => {
             </div>
           </div>
         </div>
-        <div className='w-full aspect-square md:aspect-video relative flex-1'>
+        <div className='w-full aspect-square lg:aspect-video relative flex-1'>
           <Image src={`/images/girls.jpg`} alt='images' sizes='100%,100%' className='aspect-video object-cover object-center' fill />
         </div>
       </div>
