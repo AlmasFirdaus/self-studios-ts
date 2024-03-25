@@ -11,7 +11,7 @@ type Props = {
 
 const LocationShowcase = ({ studios, gridConfig }: Props) => {
   return (
-    <div className='lg:w-2/3 container'>
+    <div className='md:w-2/3 container'>
       <div className={cn('grid gap-5', gridConfig)}>
         {studios?.map((studio, index) => (
           <div key={index} className='w-full h-full min-h-72 flex flex-col shadow-md'>
